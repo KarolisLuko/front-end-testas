@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>front-end-testas</title>
     <link rel="shortcut icon" href="./favicon.png " type="image/png">
-    <link rel="stylesheet"href="./css/main.css">
-    <link rel="stylesheet"href="./css/shared.css">
-    <link rel="stylesheet"href="./css/form.css">
-    <link rel="stylesheet"href="./css/button.css">
+    <link rel="stylesheet"href="../css/main.css">
+    <link rel="stylesheet"href="../css/shared.css">
+    <link rel="stylesheet"href="../css/form.css">
+    <link rel="stylesheet"href="../css/button.css">
 </head>
 <body>
     <div class="background"></div>
@@ -23,12 +23,20 @@
             <div class="main-foot-note">Welcome Back, Please login to your account </div>            
             <form class="form">
                 <div class="form-row inpus-field">
+                    <label for="username">Username</label>
+                    <input id="username" placeholder="Your username goes here..." type="text" required>
+                </div>
+                <div class="form-row inpus-field">
                     <label for="email">Email Address</label>
                     <input id="email" placeholder="Email..." type="email" required>
                 </div>
-                <div class="form-row inpus-field mb-30">
+                <div class="form-row inpus-field ">
                     <label for="pass">Password</label>
                     <input id="pass" placeholder="Password" type="password" required>
+                </div>
+                <div class="form-row inpus-field ">
+                    <label for="username">Username</label>
+                    <input id="username" placeholder="Your username goes here..." type="text" required>
                 </div>
                
                 <div class="form-row flex-row form-buttons mb-30">
@@ -44,13 +52,13 @@
             </form>
             <div class="contact-buttons">
                     <div>or login with </div>
-                    <a href="">Facebook</a>
-                    <a href="">Linkedin</a> 
-                    <a href="">Google</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Linkedin</a> 
+                    <a href="#">Google</a>
             </div>
         </div>
         <div class="right-column">
-            <img src="img/Untitled.png"></img>
+            <img src="../img/Untitled.png"></img>
         </div>
     </main>
 </body>
