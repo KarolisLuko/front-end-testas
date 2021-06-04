@@ -1,9 +1,23 @@
+main {
+    display: flex;
+}
+
 .left-column{
-    max-width: 50%;
-    float: left;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
 }
 
 .right-column{
-    max-width: 50%;
-    float:right;
+    width: 60%;
+    height: 100%;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
 }

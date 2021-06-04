@@ -9,36 +9,41 @@
     <link rel="stylesheet"href="./css/main.css">
     <link rel="stylesheet"href="./css/shared.css">
     <link rel="stylesheet"href="./css/form.css">
+    <link rel="stylesheet"href="./css/button.css">
 </head>
 <body>
     <div class="background"></div>
     <main>
         <div class="left-column">
             <h1 class="main-title">Fcuksense</h1>
-            <div>Artificial Intelligence Driving </div>
-            <div>Results For The Travel Industry </div>
-            <div>Welcome Back, Please login to your account </div>            
+            <div class="main-description">
+                <div>Artificial Intelligence Driving</div> 
+                <div>Results For The Travel Industry </div>
+            </div>
+            <div class="main-foot-note">Welcome Back, Please login to your account </div>            
             <form class="form">
-                <div class="form-row">
-                    <label for="email">Email</label>
+                <div class="form-row inpus-field">
+                    <label for="email">Email Address</label>
                     <input id="email" placeholder="Email..." type="email" required>
                 </div>
-                <div class="form-row">
+                <div class="form-row inpus-field mb-30">
                     <label for="pass">Password</label>
                     <input id="pass" placeholder="Password" type="password" required>
                 </div>
                
-                <div class="form-row flex-row">
-                    <input type="checkbox">Remember me</button>                    
+                <div class="form-row flex-row form-buttons mb-30">
+                    <div>
+                        <input type="checkbox">Remember me</button>                    
+                    </div>
                     <a href="./sign-in/">Forgot Password?</a>
                 </div>
                 <div class="form-row flex-row">
-                    <button type="submit">Login</button>
-                    <button type="./sign-up/">Sign up</button>
+                    <button class="login" type="submit">Login</button>
+                    <button class="ml-20" type="./sign-up/">Sign up</button>
                 </div>
             </form>
-            <div>
-                    <a href="">or login with</a>
+            <div class="contact-buttons">
+                    <div>or login with </div>
                     <a href="">Facebook</a>
                     <a href="">Linkedin</a> 
                     <a href="">Google</a>

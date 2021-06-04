@@ -1,0 +1,50 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .form-row {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .form-row.flex-row {
+    flex-direction: row;
+    align-content: space-around;
+    height: 40px;
+    align-items: center;
+
+  }
+  .form-row > label {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .form-row > input {
+    line-height: 40px;
+    font-size: 20px;
+    border: none;
+  }
+  .form-row > input::placeholder {
+    color: #ccc;
+    font-style: italic;
+  }
+  
+  .form-row > span {
+    line-height: 40px;
+    font-size: 18px;
+  }
+  .form-row > a {
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #015cda;
+  }
+  .form-row > a:hover {
+    text-decoration: underline;
+  }
+    .form-buttons{
+        justify-content: space-between;
+    }

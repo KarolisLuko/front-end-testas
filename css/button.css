@@ -1,14 +1,33 @@
-.form-row > button {
+button {
     padding-left: 50px;
     padding-right: 50px;
     line-height: 40px;
     font-size: 20px;
    background-color: white;
    border: 3px solid blue;
+   color: blue;
     cursor: pointer;
   }
   .inpus-field{
     border: 2px solid rgb(246, 241, 241);
-  border-radius: 2px; 
-  
+    border-radius: 2px;
+  }
+
+  .login {
+      background-color: blue;
+      color:white;
+  }
+
+.contact-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-buttons > div {
+    color:gray
+}
+
+  .contact-buttons > * {
+    color: blue;
+    text-decoration: none;
   }

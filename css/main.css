@@ -1,0 +1,28 @@
+main {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+.right-column > img {
+    width: auto;
+  height: auto;
+  max-height: 100%;
+}
+.main-title{
+    color: blue;    
+    font-weight: 600%;
+    margin-bottom: 120px;    
+}
+
+.main-description{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.main-foot-note {
+    font-size: 20px;
+    margin-bottom: 90px;
+    color:gray
+    
+}
